@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9BD94322DC12DAD00DD5784 /* AppUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD94312DC12DAD00DD5784 /* AppUser+CoreDataProperties.swift */; };
+		C9BD94342DC12E8000DD5784 /* AppUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BD94332DC12E8000DD5784 /* AppUser+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C949C36F2DBFDD7200B2A692 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		C949C35C2DBFDD6F00B2A692 /* CodeMasterSwiftUIProje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeMasterSwiftUIProje.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C949C36E2DBFDD7200B2A692 /* CodeMasterSwiftUIProjeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeMasterSwiftUIProjeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C949C3782DBFDD7200B2A692 /* CodeMasterSwiftUIProjeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeMasterSwiftUIProjeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BD94312DC12DAD00DD5784 /* AppUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C9BD94332DC12E8000DD5784 /* AppUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppUser+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +82,8 @@
 		C949C3532DBFDD6F00B2A692 = {
 			isa = PBXGroup;
 			children = (
+				C9BD94332DC12E8000DD5784 /* AppUser+CoreDataClass.swift */,
+				C9BD94312DC12DAD00DD5784 /* AppUser+CoreDataProperties.swift */,
 				C949C35E2DBFDD6F00B2A692 /* CodeMasterSwiftUIProje */,
 				C949C3712DBFDD7200B2A692 /* CodeMasterSwiftUIProjeTests */,
 				C949C37B2DBFDD7200B2A692 /* CodeMasterSwiftUIProjeUITests */,
@@ -236,6 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BD94342DC12E8000DD5784 /* AppUser+CoreDataClass.swift in Sources */,
+				C9BD94322DC12DAD00DD5784 /* AppUser+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
